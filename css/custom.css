@@ -1,0 +1,1390 @@
+/* ----------------------- Fonts ----------------------- */
+
+
+body {
+/*  font-family: "CircularStd", "Lato", Helvetica, Arial, sans-serif;
+*/  font-family: 'Roboto', sans-serif;
+}
+
+span.glyphicon-chevron-down {
+    font-size: 3em;
+}
+
+
+/*  ----------------------- Containers ----------------------- */
+
+.container-top{
+   background-color: #2C3E50;
+   padding-top: -20px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+/*  text-align: center;
+*/}
+
+#home-image {
+  background-image: url('../img/austin-skyline-gray.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: 100% auto; 
+  background-position: center; 
+  padding-top: 3%; 
+  padding-bottom: 10%;
+}
+
+#home-image .home-image-text {
+  vertical-align: center;
+
+}
+
+#home-image h2 {
+  padding-top: 86px;
+  padding-bottom: 86px;
+}
+
+
+footer {
+  padding-top: 30px;
+  background-color: #2C3E50;
+  color: white;
+  font-style: bold;
+}
+
+footer .footertext {
+  padding-top: 8px;
+
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  font-weight: 500;
+}
+
+footer p a {
+  color: #fff;
+  font-weight: 500;
+
+}
+
+footer p a:hover {
+  color: #ddd;
+}
+
+
+
+
+
+footer .img-responsive {
+
+  height: 100px;
+  width: auto;
+  margin-bottom: 30px;
+}
+
+
+/* ----------------------- Main Elements ----------------------- */
+
+
+footer a{
+  color: white;
+}
+small {
+  color: white;
+}
+small a{
+  color: white;
+}
+
+h2{
+  color: #2C3E50;
+  font-weight: medium;
+}
+
+h2.hey-there-nyc {
+  color: white;
+  font-size: 2.25em;
+  font-weight: 500;
+}
+
+.container h2.hey-there-nyc {
+
+  margin-bottom: 0px;
+}
+
+p.lead {
+font-weight: 700;
+
+}
+
+.container.dti-contact-form,
+.dti-contact-form {
+  background: #eee;
+  padding-top: 0px;
+  padding-bottom: 36px;
+}
+
+.dti-contact-form h4 {
+  padding-top: 18px;
+  padding-left: 15px;
+  padding-bottom: 0px;
+  font-size: 30px;
+}
+
+.dti-contact-form p.sign-up-terms {
+  padding-bottom: 36px;
+  padding-top: 8px;
+  padding-left: 15px;
+  line-height: 22px;
+  max-width: 740px;
+
+}
+
+h3{
+  color: #2C3E50;
+}
+h4{
+  color: #2C3E50;
+  font-size: 1.4em;
+  padding-top: 1.5em;
+  padding-bottom: 0; 
+  margin-bottom: .2em;
+  font-weight: medium;
+}
+p{
+  color: #2C3E50;
+  padding: 0;
+  font-weight: light;
+}
+
+label, p.pseudo-label {
+  color: #2C3E50;
+  padding: 0;
+  font-weight: 500;
+  font-size: 19px;
+  margin: 0 0 0 0;
+  padding: 0;
+  line-height: 1.2em;
+  list-style: none;
+  list-style-type: none;  
+  display: block;
+}
+
+label.text-field-label {
+  margin-bottom: 2px;
+}
+
+p.pseudo-label  {
+  margin-bottom: 12px;
+}
+
+p.helper-text {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0;
+  margin: 0 0 8px 0;
+ max-width: 90%;
+}
+
+.submit-button.btn {
+  max-width: 300px;
+  margin-top: 0;
+}
+
+p.submit-terms {
+  margin-top: 16px;
+}
+
+.mc-field-group {
+  margin-bottom: 32px;
+}
+
+ul.form-list,
+.form-list {
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 0 0; 
+}
+
+hr, hr.submit-separator {
+  margin: 8px 0 8px 0;
+  padding: 0 0 0 0;
+  border-color: #bbb;
+}
+
+#mce-success-response {
+  max-width: 780px;
+  margin-top: 24px;
+  background: #FFECD1;
+  border: 1px solid #FFB149;
+  padding: 16px;
+  line-height: 24px;
+
+}
+
+
+input.text-field-input {
+  max-width: 90%;
+}
+
+input[type="text"].text-field-input,
+input[type="email"].text-field-input,
+input[type="url"].text-field-input {
+  max-width: 90%;
+}
+
+.form-list li {
+  padding: 0;
+  margin: 0 0 12px 0; 
+  display: block;
+  list-style: none; 
+  list-style-type: none;
+
+}
+
+hr {
+  border-color: #ccc;
+}
+
+.container h3{
+  margin-top: 5%;
+}
+.container h2{
+  margin-bottom: 10%;
+}
+
+
+
+/* ----------------------- Buttons ----------------------- */
+
+.btn-danger{
+  color: #2C3E50;
+  background-color: white;
+  border: solid 2px #2C3E50;
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+  background-color: #B22222;
+}
+
+/* ----------------------- Navbar ----------------------- */
+
+.navbar {
+  min-height: 20px;
+  font-weight: medium;
+  text-decoration: none;
+}
+
+.navbar a {
+
+  text-decoration: none;
+}
+
+.navbar-inverse{
+  padding-top: 0px;
+}
+
+.navbar-inverse .img-responsive{
+  padding-top: 42px;
+  padding-bottom: 20px;
+  max-height: 164px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    border: 2px solid;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #333;
+}
+
+.navbar-nav>li>a {
+  padding-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #DC143C;
+  background-color: white;
+}
+
+
+
+/* ----------------------- Panel ----------------------- */
+
+
+.panel .row{
+  padding: 10px;
+}
+.panel p {
+  font-size: 20px;
+}
+
+
+.panel-title {
+  font-size: 40px;
+}
+
+.panel-heading span {
+    margin-top: -35px;
+    font-size: 15px;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: transparent;
+    border-color: #7F8C8D;
+}
+
+/* ----------------------- Images and Videos ----------------------- */
+
+.clickable {
+    cursor: pointer;
+} 
+.featurette-image:hover {
+  opacity: 0.5;
+}
+.video {
+  margin-top: 5%;
+}
+
+
+
+}
+.modal.fade .modal-dialog {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+     -moz-transition: -moz-transform 0.3s ease-out;
+       -o-transition: -o-transform 0.3s ease-out;
+          transition: transform 0.3s ease-out;
+}
+
+.modal.in .modal-dialog {
+
+}
+
+
+/* ----------------------- Navbar ----------------------- */
+
+
+.navbar-collapse {
+  box-shadow: none;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.navbar-nav a.first {
+  font-size: 16px;
+  padding: 15px 21px 15px 0px;
+  line-height: 23px;
+  font-weight: 700;
+}
+
+
+
+/*-------------- buttons -----------------*/
+
+
+.btn {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5em 0.875em;
+  border: 0;
+  border-radius: 0.25em;
+  margin: 6px 0;
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+  -webkit-appearance: none;
+}
+.lt-ie9 .btn {
+  font-weight: normal !important;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  background-color: #0072CE;
+  color: #ffffff;
+}
+.btn:hover,
+.btn.hover {
+  background-color: #33578E;
+}
+.btn:focus,
+.btn.focus {
+  background-color:   #002D72;
+  outline: 1px dotted   #796E65;
+  outline-offset: 1px;
+}
+.btn:active,
+.btn.active {
+  background-color: #0072CE;
+}
+button.btn::-moz-focus-inner,
+input.btn::-moz-focus-inner {
+  border: 0;
+}
+.btn + .btn {
+  margin-left: 0.375em;
+}
+.lt-ie8 {
+  background: url(null) fixed no-repeat;
+}
+.lt-ie8 button.btn,
+.lt-ie8 input.btn {
+  overflow: visible;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+/* topdoc
+  name: Secondary button
+  family: cf-buttons
+  notes:
+    - "Note that the .visited, .hover, .focus, .active classes are for
+       demonstration purposes only and should not be used in production."
+  patterns:
+  - name: Default state
+    markup: |
+      <a href="#" class="btn btn__secondary">Anchor Tag</a>
+      <button class="btn btn__secondary" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__secondary">
+  - name: Hovered state
+    markup: |
+      <a href="#" class="btn btn__secondary hover">Anchor Tag</a>
+      <button class="btn btn__secondary hover" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__secondary hover">
+  - name: Focused state
+    markup: |
+      <a href="#" class="btn btn__secondary focus">Anchor Tag</a>
+      <button class="btn btn__secondary focus" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__secondary focus">
+  - name: Active state
+    markup: |
+      <a href="#" class="btn btn__secondary active">Anchor Tag</a>
+      <button class="btn btn__secondary active" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__secondary active">
+  tags:
+  - cf-buttons
+*/
+.btn__secondary,
+.btn__secondary:link,
+.btn__secondary:visited {
+  background-color:   #43484E;
+  color: #ffffff;
+}
+.btn__secondary:hover,
+.btn__secondary.hover {
+  background-color:   #75787B;
+}
+.btn__secondary:focus,
+.btn__secondary.focus {
+  background-color:   #75787B;
+  outline-color: #43484E;
+}
+.btn__secondary:active,
+.btn__secondary.active {
+  background-color: #43484E;
+}
+/* topdoc
+  name: Destructive action button
+  family: cf-buttons
+  notes:
+    - "Note that the .visited, .hover, .focus, .active classes are for
+       demonstration purposes only and should not be used in production."
+  patterns:
+  - name: Default state
+    markup: |
+      <a href="#" class="btn btn__warning">Anchor Tag</a>
+      <button class="btn btn__warning" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__warning">
+  - name: Hovered state
+    markup: |
+      <a href="#" class="btn btn__warning hover">Anchor Tag</a>
+      <button class="btn btn__warning hover" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__warning hover">
+  - name: Focused state
+    markup: |
+      <a href="#" class="btn btn__warning focus">Anchor Tag</a>
+      <button class="btn btn__warning focus" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__warning focus">
+  - name: Active state
+    markup: |
+      <a href="#" class="btn btn__warning active">Anchor Tag</a>
+      <button class="btn btn__warning active" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__warning active">
+  tags:
+  - cf-buttons
+*/
+.btn__warning,
+.btn__warning:link,
+.btn__warning:visited {
+  background-color: #ea130b;
+  color: #ffffff;
+}
+.btn__warning:hover,
+.btn__warning.hover {
+  background-color: #b90f09;
+}
+.btn__warning:focus,
+.btn__warning.focus {
+  background-color: #b90f09;
+  outline-color: #ea130b;
+}
+.btn__warning:active,
+.btn__warning.active {
+  background-color: #a10d08;
+}
+/* topdoc
+  name: Disabled button
+  family: cf-buttons
+  notes:
+    - "Disabled buttons do not contain separate hover and active states since
+       they should not be interacted with."
+    - "Note that the .focus class is for demonstration purposes only and
+       should not be used in production."
+  patterns:
+  - name: Default/hovered/active state
+    markup: |
+      <a href="#" class="btn btn__disabled">Anchor Tag</a>
+      <button class="btn btn__disabled" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__disabled">
+      <button class="btn" disabled title="Test button">Button Tag w/ disabled attr</button>
+  - name: Focused state
+    markup: |
+      <a href="#" class="btn btn__disabled focus">Anchor Tag</a>
+      <button class="btn btn__disabled focus" title="Test button">Button Tag</button>
+      <input type="submit" value="Input Tag" class="btn btn__disabled focus">
+      <button class="btn focus" disabled title="Test button">Button Tag w/ disabled attr</button>
+  tags:
+  - cf-buttons
+*/
+.btn__disabled,
+.btn[disabled],
+.btn__disabled:link,
+.btn[disabled]:link,
+.btn__disabled:visited,
+.btn[disabled]:visited,
+.btn__disabled:hover,
+.btn[disabled]:hover,
+.btn__disabled.hover,
+.btn[disabled].hover,
+.btn__disabled:focus,
+.btn[disabled]:focus,
+.btn__disabled.focus,
+.btn[disabled].focus,
+.btn__disabled:active,
+.btn[disabled]:active,
+.btn__disabled.active,
+.btn[disabled].active {
+  background-color: #e3e3e3;
+  color: #646464;
+  cursor: default;
+  cursor: not-allowed;
+}
+.btn__disabled:focus,
+.btn[disabled]:focus,
+.btn__disabled.focus,
+.btn[disabled].focus {
+  outline-color: #7d7d7d;
+}
+
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+
+/*----------  form elements from us web design standards ------*/
+
+/**
+ * Custom checkboxes
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  position: absolute;
+  left: -999em;
+}
+
+.lt-ie9 input[type="checkbox"], .lt-ie9
+input[type="radio"] {
+  border: 0;
+  float: left;
+  margin: 0.4em 0.4em 0 0;
+  position: static;
+  width: auto;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  cursor: pointer;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
+  background: white;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 0 1px #757575;
+  content: '\a0';
+  display: inline-block;
+  height: 1.8rem;
+  line-height: 0.8;
+  margin-right: 0.6em;
+  text-indent: 0.15em;
+  vertical-align: 0.2em;
+  width: 1.8rem;
+}
+
+input[type="radio"] + label::before {
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #757575;
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+input[type="radio"] + label::before {
+  border-radius: 100%;
+}
+
+input[type="checkbox"]:checked + label::before,
+input[type="radio"]:checked + label::before {
+  background-color: #0071bc;
+  box-shadow: 0 0 0 1px #0071bc;
+}
+
+input[type="radio"]:checked + label::before {
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #0071bc;
+}
+
+input[type="radio"]:focus + label::before {
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #0071bc, 0 0 3px 4px #3e94cf, 0 0 7px 4px #3e94cf;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background-image: url("../img/correct8.png");
+  background-image: url("../img/correct8.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+input[type="checkbox"]:focus + label::before {
+  box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #0071bc;
+}
+
+input[type="checkbox"]:disabled + label {
+  color: #5b616b;
+}
+
+input[type="checkbox"]:disabled + label::before,
+input[type="radio"]:disabled + label::before {
+  background: #d6d7d9;
+  box-shadow: 0 0 0 1px #aeb0b5;
+  cursor: not-allowed;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  border: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+input[type=range]:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  background: #aeb0b5;
+  border: 1px solid #757575;
+  cursor: pointer;
+  height: 1.2rem;
+  width: 100%;
+}
+
+input[type=range]::-moz-range-track {
+  background: #0071bc;
+  border: 1px solid #757575;
+  cursor: pointer;
+  height: 1.2rem;
+  width: 100%;
+}
+
+input[type=range]::-ms-track {
+  background: transparent;
+  color: transparent;
+  cursor: pointer;
+  height: 1.2rem;
+  width: 100%;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #757575;
+  height: 2.2rem;
+  border-radius: 1.5rem;
+  background: #f1f1f1;
+  cursor: pointer;
+  margin-top: -.65rem;
+  width: 2.2rem;
+}
+
+input[type=range]::-moz-range-thumb {
+  background: #f1f1f1;
+  border: 1px solid #757575;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+input[type=range]::-ms-thumb {
+  background: #f1f1f1;
+  border: 1px solid #757575;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: #aeb0b5;
+  border: 1px solid #757575;
+  border-radius: 2rem;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: #aeb0b5;
+  border: 1px solid #757575;
+  border-radius: 2rem;
+}
+
+input[type=range]:focus::-webkit-slider-thumb {
+  border: 2px solid #3e94cf;
+}
+
+input[type=range]:focus::-moz-range-thumb {
+  border: 2px solid #3e94cf;
+}
+
+input[type=range]:focus::-ms-thumb {
+  border: 2px solid #3e94cf;
+}
+
+
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold;
+}
+
+
+
+input,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+input[type="file"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+textarea,
+select {
+  appearance: none;
+  border: 1px solid #5b616b;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #212121;
+  display: block;
+  font-size: 1.7rem;
+  margin: 0.2em 0;
+  max-width: 46rem;
+  outline: none;
+  padding: 1rem 0.7em;
+  width: 100%;
+}
+
+input:focus, input.usa-input-focus,
+input[type="text"]:focus,
+input[type="text"].usa-input-focus,
+input[type="email"]:focus,
+input[type="email"].usa-input-focus,
+input[type="password"]:focus,
+input[type="password"].usa-input-focus,
+input[type="url"]:focus,
+input[type="url"].usa-input-focus,
+input[type="tel"]:focus,
+input[type="tel"].usa-input-focus,
+input[type="number"]:focus,
+input[type="number"].usa-input-focus,
+input[type="search"]:focus,
+input[type="search"].usa-input-focus,
+input[type="file"]:focus,
+input[type="file"].usa-input-focus,
+input[type="date"]:focus,
+input[type="date"].usa-input-focus,
+input[type="datetime-local"]:focus,
+input[type="datetime-local"].usa-input-focus,
+input[type="month"]:focus,
+input[type="month"].usa-input-focus,
+input[type="time"]:focus,
+input[type="time"].usa-input-focus,
+input[type="week"]:focus,
+input[type="week"].usa-input-focus,
+textarea:focus,
+textarea.usa-input-focus,
+select:focus,
+select.usa-input-focus {
+  box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf;
+}
+
+input.usa-input-success,
+input[type="text"].usa-input-success,
+input[type="email"].usa-input-success,
+input[type="password"].usa-input-success,
+input[type="url"].usa-input-success,
+input[type="tel"].usa-input-success,
+input[type="number"].usa-input-success,
+input[type="search"].usa-input-success,
+input[type="file"].usa-input-success,
+input[type="date"].usa-input-success,
+input[type="datetime-local"].usa-input-success,
+input[type="month"].usa-input-success,
+input[type="time"].usa-input-success,
+input[type="week"].usa-input-success,
+textarea.usa-input-success,
+select.usa-input-success {
+  border: 3px solid #4aa564;
+}
+
+.usa-input-error {
+  border-left: 4px solid #cd2026;
+  margin-top: 3rem;
+  padding-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  padding-top: 0.8rem;
+  position: relative;
+  right: 1.9rem;
+}
+
+.usa-input-error input {
+  border: 3px solid #cd2026;
+  width: calc(100% + 1.5rem);
+}
+
+.usa-input-error label {
+  margin-top: 0;
+}
+
+.usa-input-error-label {
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.usa-input-error-message {
+  color: #cd2026;
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+label {
+  max-width: 46rem;
+}
+
+textarea {
+  height: 16rem;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #ffffff;
+  background-image: url("../img/arrow-down.png");
+  background-image: url("../img/arrow-down.svg");
+  background-position: right 1.3rem center;
+  background-repeat: no-repeat;
+  background-size: 1.3rem;
+}
+
+legend {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.usa-fieldset-inputs label {
+  margin-top: 0;
+}
+
+.usa-form-hint {
+  color: #757575;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  margin-bottom: 0;
+}
+
+
+
+/* ----------------------- Media Queries ----------------------- */
+
+@media (min-width: 991px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+    .mobile-hide{
+      display: none;
+    }
+    .navbar .navbar-collapse {
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 740px) {
+
+    #home-image {
+        background-size: auto 300px; 
+    }
+
+    
+#home-image h2 {
+  padding-top: 36px;
+  padding-bottom: 36px;
+
+}
+
+
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px 24px;
+        
+    }   
+
+ 
+    .navbar-nav > li > a {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-nav a {
+      margin: 0 0 12px 0;
+      padding: 0 0 0;
+    }
+
+
+} 
+
+
