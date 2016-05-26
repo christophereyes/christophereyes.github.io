@@ -24,7 +24,7 @@ span.glyphicon-chevron-down {
 */}
 
 #home-image {
-  background-image: url('img/IMG_2464.JPG');
+  background-image: url("../img/IMG_2464.JPG");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
