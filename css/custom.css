@@ -1439,6 +1439,12 @@ legend {
   padding-right: 15%;
 }
 
+h2.hey-there {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
 h2.hey-there-nyc {
   color: white;
   font-size: 1.5em;
