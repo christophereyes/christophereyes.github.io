@@ -62,8 +62,10 @@ span.glyphicon-chevron-down {
 }
 
 #home-image h2 {
-  padding-top: 86px;
-  padding-bottom: 86px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 
 #home-image2 .home-image-text {
@@ -72,8 +74,10 @@ span.glyphicon-chevron-down {
 }
 
 #home-image2 h2 {
-  padding-top: 86px;
-  padding-bottom: 86px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 
 #home-image3 .home-image-text {
@@ -82,8 +86,10 @@ span.glyphicon-chevron-down {
 }
 
 #home-image3 h2 {
-  padding-top: 86px;
-  padding-bottom: 86px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 
 footer {
@@ -1404,8 +1410,8 @@ legend {
 
 
 #home-image h2 {
-  padding-top: 36px;
-  padding-bottom: 36px;
+  padding-top: 15%;
+  padding-bottom: 15%;;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -1415,8 +1421,8 @@ legend {
     }
 
 #home-image2 h2 {
-  padding-top: 36px;
-  padding-bottom: 36px;
+  padding-top: 15%;
+  padding-bottom: 15%;
   padding-left: 15%;
   padding-right: 15%;
 
@@ -1427,8 +1433,8 @@ legend {
     }
 
 #home-image3 h2 {
-  padding-top: 36px;
-  padding-bottom: 36px;
+  padding-top: 15%;
+  padding-bottom: 15%;
   padding-left: 15%;
   padding-right: 15%;
 }
