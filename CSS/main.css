@@ -1,6 +1,6 @@
 .small2{
 	font-family:"Roboto";
-	font-size:20px;
-	font-weight: 200;
-	z-index: 10000;
+    padding-bottom: 14px;
+    margin: 60px 0 30px;
+    border-bottom: 2px solid #e7e9ec;
 }
