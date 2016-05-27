@@ -151,6 +151,12 @@ h2{
   font-weight: medium;
 }
 
+h2.hey-there {
+  color: white;
+  font-size: 2.25em;
+  font-weight: 500;
+}
+
 h2.hey-there-nyc {
   color: white;
   font-size: 2.25em;
