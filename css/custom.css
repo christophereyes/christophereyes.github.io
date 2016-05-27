@@ -1410,24 +1410,6 @@ legend {
   padding-right: 15%;
 }
 
-
-    .navbar-nav {
-        float: none!important;
-        margin: 7.5px 24px;
-
-    }
-
-
-    .navbar-nav > li > a {
-        margin: 0;
-        padding: 0;
-    }
-
-    .navbar-nav a {
-      margin: 0 0 12px 0;
-      padding: 0 0 0;
-    }
-
     #home-image2 {
         background-size: auto 80%;
     }
@@ -1450,6 +1432,23 @@ legend {
   padding-left: 15%;
   padding-right: 15%;
 }
+
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px 24px;
+
+    }
+
+
+    .navbar-nav > li > a {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-nav a {
+      margin: 0 0 12px 0;
+      padding: 0 0 0;
+    }
 
 }
 
