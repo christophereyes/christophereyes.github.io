@@ -1401,7 +1401,25 @@ legend {
       margin: 0 0 12px 0;
       padding: 0 0 0;
     }
+    #home-image2 {
+        background-size: auto 300px;
+    }
 
+#home-image2 h2 {
+  padding-top: 36px;
+  padding-bottom: 36px;
+
+}
+
+    #home-image3 {
+        background-size: auto 300px;
+    }
+
+#home-image3 h2 {
+  padding-top: 36px;
+  padding-bottom: 36px;
+
+}
 
 }
 
