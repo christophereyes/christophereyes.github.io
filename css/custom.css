@@ -1405,7 +1405,7 @@ legend {
 @media (max-width: 740px) {
 
     #home-image {
-        background-size: auto 80%;
+        background-size: auto 250px;
     }
 
 
@@ -1417,7 +1417,7 @@ legend {
 }
 
     #home-image2 {
-        background-size: auto 80%;
+        background-size: auto 250px;
     }
 
 #home-image2 h2 {
@@ -1429,7 +1429,7 @@ legend {
 }
 
     #home-image3 {
-        background-size: auto 80%;
+        background-size: auto 250px;
     }
 
 #home-image3 h2 {
