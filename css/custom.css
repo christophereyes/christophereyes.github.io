@@ -1478,7 +1478,23 @@ h2.hey-there-nyc {
 
 @media (max-width: 450px) {
 
-  #home-image2 h2 {
+  #home-image {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 12%;
+    padding-right: 15%;
+
+  }
+
+    #home-image2 h2 {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 12%;
+    padding-right: 15%;
+
+  }
+
+    #home-image3 h2 {
     padding-top: 15%;
     padding-bottom: 15%;
     padding-left: 12%;
