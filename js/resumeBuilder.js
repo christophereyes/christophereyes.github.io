@@ -13,4 +13,4 @@ var bio = {
 
 }
 
-$(".page-header, .small12").append(bio.name);
+$(".page-header, .small2").append(bio.name);
