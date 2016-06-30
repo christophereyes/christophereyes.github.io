@@ -1,4 +1,3 @@
-//$("#main").append("CHRISTOPHER REYES");
 var bio = {
     "name" : "Christopher Reyes",
     "role" : "student",
@@ -14,4 +13,4 @@ var bio = {
 
 }
 
-$("main").append(bio.name);
+$(".page-header,.small12").append(bio.name);
