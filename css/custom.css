@@ -23,6 +23,7 @@ span.glyphicon-chevron-down {
 /*  text-align: center;
 */}
 
+
 #home-image2 {
   background-image: url("../img/IMG_2443.JPG");
   background-repeat: no-repeat;
@@ -46,7 +47,7 @@ span.glyphicon-chevron-down {
 }
 
 #home-image3 {
-  background-image: url("../img/IMG_2468.JPG");
+  background-image: url("../img/hiking.JPG");
   background-repeat: no-repeat;
   background-size: 80% auto;
   background-position: center;
@@ -133,8 +134,32 @@ footer .img-responsive {
 }
 
 
+.gray {
+  background-color: #f3f3f3;
+  padding-bottom: 10px;
+  clear:both;
+}
+
+
 /* ----------------------- Main Elements ----------------------- */
 
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding:0;
+  margin:0;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+}
 
 footer a{
   color: white;
@@ -202,7 +227,7 @@ h3{
 h4{
   color: #2C3E50;
   font-size: 1.4em;
-  padding-top: 1.5em;
+  padding-top: .5em;
   padding-bottom: 0;
   margin-bottom: .2em;
   font-weight: medium;
@@ -311,6 +336,54 @@ hr {
 }
 
 
+
+.flex-box {
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.biopic {
+  padding: 0px;
+  width: 0px;
+  position: relative;
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 300px;
+  }
+}
+
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
+}
+
+img {
+  padding: 10px;
+}
+
+#lets-connect {
+  text-align: center;
+}
 
 /* ----------------------- Buttons ----------------------- */
 
@@ -776,7 +849,7 @@ mark {
  * Address inconsistent and variable font size in all browsers.
  */
 small {
-  font-size: 80%;
+  font-size: 82%;
 }
 
 /**
@@ -1478,6 +1551,15 @@ h2.hey-there-nyc {
 
 @media (max-width: 450px) {
 
+  h2{
+    font-family: 'Lato';
+    font-size: 20px;
+    opacity: 0.9;
+    margin-top: 0px;
+    font-weight: 700;
+    line-height: 1.5em;
+  }
+
   #home-image h2 {
     padding-top: 15%;
     padding-bottom: 15%;
@@ -1500,6 +1582,14 @@ h2.hey-there-nyc {
     padding-left: 12%;
     padding-right: 15%;
 
+  }
+
+  .biopic {
+    width: 100%;
+  }
+
+  .navbar {
+    margin-bottom: 0px;
   }
 
 }
