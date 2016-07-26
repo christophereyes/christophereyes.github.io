@@ -351,9 +351,31 @@ hr {
   position: relative;
 }
 
+@media only screen and (min-width:901px) {
+  .biopic {
+    width: 65%;
+  }
+
+  .navbar {
+    margin-bottom: 5px;
+  }
+
+  small {
+    font-size: 100%;
+  }
+}
+
 @media only screen and (max-width:900px) {
   .biopic {
-    width: 300px;
+    width: 70%;
+  }
+
+  .navbar {
+    margin-bottom: 5px;
+  }
+
+  small {
+    font-size: 100%;
   }
 }
 
@@ -374,6 +396,10 @@ hr {
   #skills-h3,
   .biopic {
     display: block;
+  }
+
+  div {
+    font-size: 17px;
   }
 }
 
