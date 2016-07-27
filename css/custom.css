@@ -1577,6 +1577,10 @@ h2.hey-there-nyc {
 
 @media (max-width: 450px) {
 
+  .pull-left {
+    float: none!important;
+  }
+
   h2{
     font-family: 'Lato';
     font-size: 20px;
