@@ -26,19 +26,44 @@ var education = {
     {"name" : "The University of Texas at Arlington",
     "location": "Arlington, Texas",
     "Degree": "Bachelors",
-    "Major": "Computer Science"
-}]
+    "Major": "Computer Science",
+    "Related_Courses": "Algorithms & Data Structures, Fundamentals of Software Engineering, Engineering Probability, Computer Organization, Linear Algebra"
+}],
+    "online" : [
+    {"title" : "Responsive Web Design Fundamentals",
+    "name": "Udacity",
+    "Dates" : "2016"
+    },
+    {"title" : "How to use Git and Github",
+    "name": "Udacity",
+    "Dates" : "2016"
+    }
+    ]
 }
+
 for(school in education.schools) {
     $("#education").append(HTMLschoolStart);
     var formattedSchool = HTMLschoolName.replace("%data%", education.schools[school].name);
-    $(".education-entry:last").append(formattedSchool);
+    $(".education-entry").append(formattedSchool);
     var formattedSchoolocation = HTMLschoolLocation.replace("%data%", education.schools[school].location);
-    $(".education-entry:last").append(formattedSchoolocation);
+    $(".education-entry").append(formattedSchoolocation);
     var formattedMajor = HTMLschoolMajor.replace("%data%", education.schools[school].Major);
-    $(".education-entry:last").append(formattedMajor);
-
+    $(".education-entry").append(formattedMajor);
+    var formattedCourses = HTMLschoolCourses.replace("%data%", education.schools[school].Related_Courses);
+    $(".education-entry").append(formattedCourses);
 }
+
+
+/*for(classes in education.online) {
+    $("#onlineClasses").append(HTMLonlineStart);
+    var formattedClass = HTMLonlineTitle.replace("%data%", education.online[classes].title);
+    $(".onlineClasses-entry:last").append(formattedClass);
+    var formattedOnlineschool = HTMLonlineSchool.replace("%data%", education.online[classes].name);
+    $(".onlineClasses-entry:last").append(formattedOnlineschool);
+    var formattedDates = HTMLonlineDates.replace("%data%", education.online[classes].Dates);
+    $(".onlineClasses-entry:last").append(formattedDates);
+}*/
+
 var work = {
     "jobs" : [
     {"employer": "AT&T",
