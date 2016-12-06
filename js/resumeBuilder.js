@@ -16,9 +16,9 @@ $(".small2").append(bio.name);
 $(".small2").append(" : ");
 $(".small2").append(bio.role);
 
-var portPic = HTMLbioPic.replace("%data%", bio.biopic);
+var PortfolioPic = HTMLbioPic.replace("%data%", bio.biopic);
 
-$("#topContacts").append(portPic);
+$("#topContacts").append(PortfolioPic);
 
 
 var education = {
@@ -69,7 +69,7 @@ var work = {
     {"employer": "AT&T",
     "title": "Sales Representative",
     "location": "Hurst, Texas",
-    "dates": "09/2009 - Current",
+    "dates": "09/2009 - 08/2016",
     "description": "Sales, and support of wireless solutions in a fast paced dynamic enviroment."
     }]
 }
