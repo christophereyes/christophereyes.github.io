@@ -66,11 +66,17 @@ for(school in education.schools) {
 
 var work = {
     "jobs" : [
+       {"employer": "Intel Corporation",
+    "title": "Software Engineer (intern)",
+    "location": "Hillboro, Oregon",
+    "dates": "05/2017 - 08/2017",
+    "description": "Developed data analysis tool that facilitates faster information synchronization across team, increasing communication efficiency and data modeling. Performed software maintenance, testing and development, using C# and Visual Studio, of new features for internal tool providing automation for previous manual operations. •  Conducted research and analysis of legacy code related to benchmark calculations on server platform memory configurations, work provided insight and opportunity to evaluate new memory technologies."
+    },
     {"employer": "AT&T",
     "title": "Sales Representative",
     "location": "Hurst, Texas",
     "dates": "09/2009 - 08/2016",
-    "description": "Sales, and support of wireless solutions in a fast paced dynamic enviroment."
+    "description": "Balanced roles managing a team of six colleagues and interacting with customers to troubleshoot their computer related issues."
     }]
 }
 for (job in work.jobs) {
