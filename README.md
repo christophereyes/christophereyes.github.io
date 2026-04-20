@@ -1,6 +1,14 @@
 # christophereyes.github.io
-Repository for christophereyes.me, my personal website.
-## Motivation
-My intention is to update this site and repo with tools that I learn and provide examples to learn from as well.
-##Contributors
-So far just me. But feel free to send me a pull request to get your own site running.
+
+Personal portfolio website for **Christopher Reyes** — Senior Software Engineer with 8+ years of experience in cloud-native platforms and MLOps.
+
+Built with vanilla HTML, CSS, and JavaScript. No frameworks, no build step. Hosted on GitHub Pages.
+
+## Features
+
+- Clean, minimal responsive design with dark mode support (`prefers-color-scheme`)
+- Dynamic project showcase via the GitHub REST API
+- Timeline-based work experience section
+- Grouped technical skills with experience indicators
+- Scroll animations via `IntersectionObserver`
+- Fully accessible (semantic HTML, ARIA labels, keyboard navigable)

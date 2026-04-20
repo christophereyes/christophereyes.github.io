@@ -1,22 +1,12 @@
 {
   "name": "christophereyes.github.io",
   "version": "1.0.0",
-  "description": "github website",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Personal portfolio website for Christopher Reyes — Senior Software Engineer",
+  "author": "Christopher Reyes",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/christophereyes/christophereyes.github.io.git"
   },
-  "author": "Christopher Reyes",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/christophereyes/christophereyes.github.io/issues"
-  },
-  "homepage": "https://github.com/christophereyes/christophereyes.github.io#readme",
-  "dependencies": {
-    "material-components-web": "^0.17.0"
-  }
+  "homepage": "https://christophereyes.github.io"
 }
